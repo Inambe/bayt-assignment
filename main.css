@@ -270,3 +270,39 @@ header {
   background-color: #3d3d3d;
   color: #fff;
 }
+
+/* Footer */
+footer {
+  background-color: #3d3d3d;
+  padding: 28px 0;
+  text-align: center;
+  color: #fff;
+}
+
+footer > p {
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+footer > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+footer > ul > li {
+  padding: 8px;
+  background-color: var(--primary-color);
+}
+footer > ul > li a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer > ul > li svg {
+  height: 16px;
+  width: 16px;
+}
