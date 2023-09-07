@@ -338,3 +338,27 @@ footer > button {
   transform: translateY(-50%);
   right: 16px;
 }
+
+@media (min-width: 768px) {
+  .team-list {
+    display: flex;
+    gap: 20px;
+  }
+  .team-list li {
+    flex: 1;
+    margin: 0;
+  }
+
+  .work-list {
+    background-color: transparent;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+  .work-list > li {
+    flex: 1;
+    margin: 0;
+    background-color: #fff;
+    padding-bottom: 20px;
+  }
+}
