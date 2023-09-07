@@ -105,7 +105,7 @@ header {
 
 /* home-section */
 .home-section {
-  padding: 40px 0;
+  padding: 40px 16px;
 }
 
 .home-section__title {
@@ -151,4 +151,33 @@ header {
   font-size: 14px;
   font-weight: 400;
   margin: 0;
+}
+
+/* Work */
+.work-section {
+  background-color: #3d3d3d;
+  color: #fff;
+}
+.work-section .home-section__title {
+  text-align: left;
+}
+
+.work-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #fff;
+  color: #3d3d3d;
+}
+.work-list > li {
+  margin-bottom: 20px;
+}
+.work-list h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px;
+}
+.work-list img {
+  display: block;
+  max-width: 100%;
 }
