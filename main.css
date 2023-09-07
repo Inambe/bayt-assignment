@@ -169,7 +169,7 @@ header {
   list-style: none;
   background-color: #fff;
   color: #3d3d3d;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .work-list > li {
   margin-bottom: 20px;
@@ -185,4 +185,88 @@ header {
 .work-list img {
   display: block;
   max-width: 100%;
+}
+
+/* Contact */
+.contact-section {
+  padding-top: 60px;
+  background-color: rgb(237, 237, 237);
+}
+.contact-section .home-section__title {
+  text-align: left;
+}
+.contact-section > h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.contact-section > p {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.contact-section > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin: 12px 0;
+}
+
+.contact-section > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-section > ul > li > svg {
+  height: 16px;
+  color: var(--primary-color);
+}
+
+.contact-section > form {
+  padding: 12px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.1);
+}
+
+.fields > div {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+.fields > div > label {
+  display: block;
+  margin-bottom: 4px;
+}
+.fields > div > input,
+.fields > div > textarea {
+  padding: 8px 12px;
+  border: none;
+  width: calc(100% - 24px);
+  border-bottom: 1px solid #3d3d3d;
+}
+.fields > div > input:focus,
+.fields > div > textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.contact-section .action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-section .action > label {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.contact-section .action > button {
+  padding: 8px 16px;
+  background-color: #3d3d3d;
+  color: #fff;
 }
