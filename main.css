@@ -194,6 +194,14 @@ header {
 }
 .contact-section .home-section__title {
   text-align: left;
+  display: inline-block;
+}
+.contact-section .home-section__title::after {
+  content: " ";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background: var(--primary-color);
 }
 .contact-section > h4 {
   font-size: 16px;
