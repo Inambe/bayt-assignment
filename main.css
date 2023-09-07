@@ -110,10 +110,14 @@ header {
 /* home-section */
 .home-section {
   padding: 40px 16px;
+  position: relative;
 }
 .home-section__dark {
   background-color: #3d3d3d;
   color: #fff;
+}
+.home-section__gray {
+  background-color: rgb(237, 237, 237);
 }
 
 .home-section__title {
@@ -192,9 +196,7 @@ header {
 
 /* Contact */
 .contact-section {
-  padding-top: 60px;
-  background-color: rgb(237, 237, 237);
-  position: relative;
+  padding-top: 20px;
 }
 .contact-section .home-section__title {
   text-align: left;
@@ -217,31 +219,31 @@ header {
   background-color: var(--primary-color);
   color: #fff;
 }
-.contact-section > h4 {
+.contact-section h4 {
   font-size: 16px;
   font-weight: 500;
   margin: 0;
   margin-bottom: 8px;
 }
-.contact-section > p {
+.contact-section p {
   font-size: 16px;
   margin: 0;
   margin-bottom: 8px;
 }
-.contact-section > ul {
+.contact-section ul {
   margin: 0;
   padding: 0;
   list-style: none;
   margin: 12px 0;
 }
 
-.contact-section > ul > li {
+.contact-section ul > li {
   display: flex;
   align-items: center;
   gap: 4px;
 }
 
-.contact-section > ul > li > svg {
+.contact-section ul > li > svg {
   height: 16px;
   color: var(--primary-color);
 }
@@ -369,5 +371,16 @@ footer > button {
     gap: 20px;
     max-width: 1280px;
     margin: 0 auto;
+  }
+
+  .contact-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .contact-section > form {
+    width: 50%;
   }
 }
